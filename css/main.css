@@ -1,0 +1,360 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFF;
+}
+
+.header {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 240px;
+    margin-bottom: 93px;
+}
+
+.header__inner {
+    max-width: 100%;
+    padding-bottom: 145px;
+}
+
+.header__logo-item a {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.header__menu-list li {
+    margin-left: 59px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__menu-list li:first-child {
+    margin-left: 0;
+}
+
+.nav-mobile__menu {
+    position: absolute;
+    display: none;
+    right: 15px;
+    max-width: 100%;
+    background-color: antiquewhite;
+    padding: 30px 30px;
+}
+
+.mobile__menu {
+    position: relative;
+}
+
+.nav-mobile__list {
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.nav-mobile__link {
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-mobile__item {
+    margin-bottom: 10px;
+}
+
+
+.intro__me,
+.intro__me a {
+    color: #FFF;
+}
+
+.intro__from {
+    font-size: 18px;
+    padding-bottom: 106px;
+}
+
+.about__title,
+.skills__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-bottom: 76px;
+}
+
+.about__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.about__inner {
+    margin-bottom: 115px;
+}
+
+.skills {
+    background: #FFFAF2;
+    padding-bottom: 145px;
+}
+
+.skills__img {
+    margin-bottom: 30px;
+}
+
+.my__skills {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+span {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.progress {
+    background-color: #F5D6AB;
+}
+
+.bg-color {
+    background-color: #C66C49;
+}
+
+
+.progress__span {
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.portfolio {
+    margin-top: 93px;
+    margin-bottom: 145px;
+}
+
+.portfolio__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 86px;
+}
+
+.portfolio__text {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 46px;
+}
+
+.portfolio__paragraf {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+.portfolio__ikon1 {
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.portfolio__ikon2 {
+    padding-bottom: 10px;
+}
+
+.box__inner {
+    position: relative;
+}
+
+.img__arrow {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.footer__title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 51px;
+}
+
+.footer {
+    background-color: #FFFAF2;
+    padding-top: 89px;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.footer__list li a {
+    color: #333333;
+}
+
+.footer__list li {
+    padding-bottom: 10px;
+}
+
+.footer__item-color {
+    color: #333333;
+}
+
+.footer__arrow {
+    position: absolute;
+    bottom: 70px;
+    right: 180px;
+}
+.mobile-menu {
+    display: none;
+}
+@media screen and (max-width: 992px) {
+    .img__arrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .navbar-toggler:hover  + .nav-mobile__menu{
+        display: block;
+    }
+    .header {
+        padding-bottom: 34px;
+        margin-bottom: 25px;
+    }
+
+    .header__inner {
+        padding-bottom: 50px;
+    }
+
+    .about__inner h2 {
+        text-align: center;
+        margin-bottom: 19px;
+    }
+
+    .about__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .skills__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .skills {
+        padding-bottom: 25px;
+    }
+
+    .skills__title {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .my__skills {
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .progress__title {
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .about__inner {
+        margin-bottom: 10px;
+    }
+
+    .progress__pt {
+        padding-bottom: 7px;
+    }
+
+    .progress__span {
+        padding-top: 12px;
+        font-size: 12px;
+    }
+
+    .img__arrow {
+        display: none;
+    }
+
+    .portfolio {
+        margin-top: 25px;
+        margin-bottom: 23px;
+    }
+
+    .portfolio__title {
+        margin-bottom: 19px;
+        text-align: center;
+    }
+
+    .portfolio__text {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .portfolio__paragraf {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .footer__title {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        padding-top: 26px;
+        padding-bottom: 50px;
+    }
+
+    .portfolio__ikon1, .portfolio__ikon1 {
+        padding-right: 0;
+    }
+
+    .img__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .portfolio__ikon1, .portfolio__ikon2 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    img {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .portfolio__ikon1 {
+        padding-right: 0;
+    }
+
+    .footer__arrow {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+}
